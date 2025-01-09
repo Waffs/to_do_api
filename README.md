@@ -98,18 +98,20 @@ Response:
 Python 3.8 or higher
 SQLite
 Steps
-Clone the repository:
+#### Clone the repository:
 
 git clone https://github.com/Waffs/to_do_api.git
 cd todo-api
-Set up a virtual environment:
+
+#### Set up a virtual environment:
 
 python3 -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-Install dependencies:
+
+#### Install dependencies:
 
 pip install -r requirements.txt
-Initialize the database:
+#### Initialize the database:
 
 flask db init
 flask db migrate
@@ -126,6 +128,7 @@ Create a new Web Service and connect your GitHub repository.
 Use the following build command:
 
 pip install -r requirements.txt
+
 Set the Start Command to:
 
 gunicorn -w 4 -b 0.0.0.0:5000 app:app
