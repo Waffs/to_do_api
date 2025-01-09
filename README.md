@@ -1,13 +1,10 @@
 # Todo API
 
-A RESTful API for managing Todo items. This API allows users to create, update, delete, and retrieve Todo items, with additional features like due dates, priority levels, reminders, and calendar sync.
-
+A RESTful API for managing Todo items. This API allows users to create, update, delete, and retrieve Todo items, with additional features like due dates, priority levels, reminders.
 ## Features
 
 - Create, update, delete, and retrieve Todo items.
 - Assign due dates and priority levels (Low, Medium, High).
-- Set reminders for Todo items.
-- Calendar synchronization for better task management.
 - JSON-based responses for seamless integration with front-end applications.
 
 ## Tech Stack
