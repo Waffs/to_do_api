@@ -100,7 +100,7 @@ SQLite
 Steps
 Clone the repository:
 
-git clone https://github.com/your-username/todo-api.git
+git clone https://github.com/Waffs/to_do_api.git
 cd todo-api
 Set up a virtual environment:
 
@@ -135,7 +135,7 @@ You can use tools like Postman or cURL to test the API endpoints.
 
 Example cURL Command
 
-curl -X POST https://your-api-deployment-url.com/todos \
+curl -X POST https://to-do-api-byab.onrender.com \
 -H "Content-Type: application/json" \
 -d '{
   "title": "Buy groceries",
