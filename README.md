@@ -20,8 +20,7 @@ A RESTful API for managing Todo items. This API allows users to create, update, 
 ## API Endpoints
 
 ### Base URL
-`[[API Deployment URL](https://to-do-api-byab.onrender.com)](https://to-do-api-byab.onrender.com)`
-
+'https://to-do-api-byab.onrender.com'
 ### Endpoints
 
 #### 1. Get All Todos
