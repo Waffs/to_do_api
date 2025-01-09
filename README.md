@@ -20,7 +20,7 @@ A RESTful API for managing Todo items. This API allows users to create, update, 
 ## API Endpoints
 
 ### Base URL
-`https://your-api-deployment-url.com`
+`[API Deployment URL](https://to-do-api-byab.onrender.com)`
 
 ### Endpoints
 
@@ -28,7 +28,7 @@ A RESTful API for managing Todo items. This API allows users to create, update, 
 - **URL**: `/todos`
 - **Method**: `GET`
 - **Response**:
-  ```json
+- 
   [
     {
       "id": 1,
@@ -39,10 +39,10 @@ A RESTful API for managing Todo items. This API allows users to create, update, 
       "priority": "High"
     }
   ]
-2. Get Todo by ID
-URL: /todos/{id}
-Method: GET
-Response:
+#### 2. Get Todo by ID
+- **URL**: /todos/{id}
+- **Method**: GET
+- **Response**:
 
 {
   "id": 1,
@@ -52,10 +52,10 @@ Response:
   "due_date": "2025-01-05",
   "priority": "High"
 }
-3. Create a New Todo
-URL: /todos
-Method: POST
-Request Body:
+#### 3. Create a New Todo
+**URL**: /todos
+**Method**: POST
+**Request Body**:
 
 {
   "title": "Buy groceries",
@@ -70,10 +70,10 @@ Response:
   "message": "Todo created successfully",
   "id": 1
 }
-4. Update an Existing Todo
-URL: /todos/{id}
-Method: PUT
-Request Body:
+#### 4. Update an Existing Todo
+**URL**: /todos/{id}
+**Method**: PUT
+**Request Body**:
 
 {
   "title": "Buy groceries (updated)",
@@ -87,10 +87,10 @@ Response:
 {
   "message": "Todo updated successfully"
 }
-5. Delete a Todo
-URL: /todos/{id}
-Method: DELETE
-Response:
+#### 5. Delete a Todo
+**URL**: /todos/{id}
+**Method**: DELETE
+**Response**:
 {
   "message": "Todo deleted successfully"
 }
